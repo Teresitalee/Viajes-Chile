@@ -17,3 +17,59 @@ nav {
     margin-left: auto !important;
 }
 /* END: NAVBAR */
+
+/* START: QUIENES SOMOS */
+.somos {
+    background-color: black;
+    height: 500px;
+
+}
+
+.somos h1 {
+    margin-top: 1em;
+}
+
+.box {
+    background-color: #48cae4;
+    text-align: center;
+    height: 50px;
+}
+
+.box i {
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+ hr {
+    background-color: #48cae4;
+    height: 2px !important;
+}
+
+.grilla {
+    padding-top: 2em;
+}
+
+.box p {
+    color: #ffffff;
+    text-align: left;
+    padding-top: 1em;
+}
+
+.box-reverse {
+    background-color: #48cae4;
+    text-align: center;
+    height: 60px;
+}
+
+.box-reverse i {
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+.box-reverse p {
+    color: #ffffff;
+    
+}
+
+
+/* END: QUIENES SOMOS */
