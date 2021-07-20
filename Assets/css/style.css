@@ -1,0 +1,19 @@
+/* START: NAVBAR */
+nav {
+    background-color: transparent;
+}
+
+.logo {
+    width: 8%;
+}
+
+.navbar-brand {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+ .navbar-nav {
+    margin-left: auto !important;
+}
+/* END: NAVBAR */
