@@ -92,3 +92,24 @@ nav {
     background-color: #48cae4;
 }
 /* END: DESTACADOS */
+
+/* START: CONTACTO */
+.contacto {
+    background-color: black;
+    height: 750px;
+}
+
+.contacto h1 {
+    margin-top: 2em;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: .8em;
+}
+
+.typeform {
+    background-color: aliceblue;
+    padding: 2em;
+    height: 500px;
+}
+
+/* END: CONTACTO */
