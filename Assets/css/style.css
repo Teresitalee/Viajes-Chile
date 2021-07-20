@@ -22,7 +22,6 @@ nav {
 .somos {
     background-color: black;
     height: 500px;
-
 }
 
 .somos h1 {
@@ -70,6 +69,26 @@ nav {
     color: #ffffff;
     
 }
-
-
 /* END: QUIENES SOMOS */
+
+/* START: DESTACADOS */
+.destacados {
+    background-color: black;
+    height: 600px;
+}
+
+.destacados h1 {
+    margin-top: 2em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cajas {
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.card {
+    background-color: #48cae4;
+}
+/* END: DESTACADOS */
