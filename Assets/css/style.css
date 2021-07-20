@@ -113,3 +113,23 @@ nav {
 }
 
 /* END: CONTACTO */
+
+/* START: FOOTER */
+footer {
+    background-color:#48cae4;
+    height: 50px;
+}
+
+.redes {
+    display: flex;
+}
+
+.redes ul li {
+    list-style: none;
+}
+
+.redes i {
+    color: #ffffff;
+    font-size: 1em;
+}
+/* END: FOOTER */
