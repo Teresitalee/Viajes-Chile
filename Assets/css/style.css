@@ -32,25 +32,30 @@
 
 .navbar-brand {
     font-size: 1em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
  .navbar-nav {
     margin-left: auto !important;
 }
+
+@media (max-width: 768px) {
+    .slider-section {
+        margin-top: 4em;
+    }
+}
 /* END: NAVBAR */
 
 /* START: QUIENES SOMOS */
 .somos {
     background-color: #000000;
-    height: 600px;
+    
     padding: 6em 0;
 }
 
 .somos h2 {
     font-size: 2em;
-    margin-top: 0;
     margin-bottom: 1em;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -58,6 +63,12 @@
 
 .somos p {
     font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .somos p {
+        line-height: 30px;
+    }
 }
 
 .box {
@@ -102,12 +113,16 @@
     color: #ffffff;
     
 }
+@media (max-width: 768px) {
+    .somos .box-reverse p {
+        line-height: 30px;
+    }
+}
 /* END: QUIENES SOMOS */
 
 /* START: DESTACADOS */
 .destacados {
     background-color: #000000;
-    height: 800px;
     padding: 6em 0;
 }
 
@@ -132,7 +147,6 @@
 /* START: CONTACTO */
 .contacto {
     background-color: #000000;
-    height: 800px;
     padding: 6em 0;
 }
 
@@ -155,9 +169,18 @@
 /* START: FOOTER */
 footer {
     background-color:#48cae4;
-    height: 70px;
+    height: 78px;
     text-align: center;
     font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+    footer {
+        height: 100px;
+    }
+}
+
+footer h2 {
+    text-transform: uppercase;
 }
 
 footer i {
