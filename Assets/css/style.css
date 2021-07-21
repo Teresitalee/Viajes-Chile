@@ -117,19 +117,14 @@ nav {
 /* START: FOOTER */
 footer {
     background-color:#48cae4;
-    height: 50px;
+    height: 70px;
+    text-align: center;
+    font-size: 0.9rem;
 }
 
-.redes {
-    display: flex;
-}
-
-.redes ul li {
-    list-style: none;
-}
-
-.redes i {
+footer i {
     color: #ffffff;
-    font-size: 1em;
+    font-size: 2em;
 }
+
 /* END: FOOTER */
