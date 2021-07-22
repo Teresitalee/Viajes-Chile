@@ -20,5 +20,5 @@ debes hacer lo siguiente;
 - Abrir archvivo index.html en el explorador... y listo!!!
 
 
-### Deployment ver su performance
-GH_pages [ ver Performance ? ](https://teresitalee.github.io/SongsBook_search/)
+### Deployment --->
+GH_pages [ ver Performance ? ](https://teresitalee.github.io/Viajes-Chile/)
