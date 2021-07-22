@@ -101,8 +101,27 @@
                 </div>
                 <div class="col-md-4">
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque necessitatibus deserunt explicabo provident velit veritatis dolores corporis rem possimus rerum, expedita, dolore fuga id eius, distinctio deleniti repellendus aperiam obcaecati!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea id saepe non aperiam error molestias velit ab atque repellendus! Eveniet, adipisci dolores nihil assumenda repudiandae atque magni aut totam beatae.</p>
-                    <div class="box-reverse" data-toggle="tooltip" title="Toma Precauciones antes de comenzar tus viajes">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-sett" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <i class="fas fa-exclamation-triangle text-white text-center"></i>
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">PRECAUCION</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            ** Si viajas a la Argentina, no olvides contratar seguro médico.
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -186,10 +205,10 @@
             <div class="row align-items-center d-flex m-auto p-3 justify-content-start">
                 <div class="col-lg-6 text-lg-start text-white"><h2 class="" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Viajes Chile</h2></div>
                 <div class="col-lg-6 text-lg-end">
-                    <a class="mx-2" href="#!"><i class="fab fa-github-square"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-linkedin"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter-square"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-square"></i></a>
+                    <a class="mx-2" href="#!" data-bs-toggle="tooltip" data-bs-placement="left" title="Aqui mi portafolio de proyectos"><i class="fab fa-github-square"></i></a>
+                    <a class="mx-2" href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Aca info de mis pegas"><i class="fab fa-linkedin"></i></a>
+                    <a class="mx-2" href="#!" data-bs-toggle="tooltip" data-bs-placement="bottom" title="No uso esta red"><i class="fab fa-twitter-square"></i></a>
+                    <a class="mx-2" href="#!" data-bs-toggle="tooltip" data-bs-placement="right" title="Aca info de mi vida privada y copuchas"><i class="fab fa-facebook-square"></i></a>
                 </div>
             </div>
         </div>

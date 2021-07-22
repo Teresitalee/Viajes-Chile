@@ -58,6 +58,15 @@
     }
 }
 
+.somos .btn-sett {
+    background-color: #48cae4;
+    width: 100%;
+}
+
+.somos .btn-sett i {
+   font-size: 2em;
+}
+
 .somos h2 {
     font-size: 2em;
     margin-bottom: 1em;
