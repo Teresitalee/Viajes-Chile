@@ -17,11 +17,7 @@
     <!--  Font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <!---favicon-->
-    <link rel="icon" href="https://chileestuyo.cl/wp-content/uploads/2019/08/cropped-fav-32x32.png" sizes="32x32" />
-    <link rel="icon" href="https://chileestuyo.cl/wp-content/uploads/2019/08/cropped-fav-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://chileestuyo.cl/wp-content/uploads/2019/08/cropped-fav-180x180.png" />
-
-
+    <link rel="shortcut icon" href="Assets/img/viajes.svg" type="image/x-icon">
 
     <title>Viajes-Chile</title>
   </head>
@@ -93,20 +89,20 @@
             </div>
             <div class="row text-center d-flex">
                 <div class="col-md-4">
-                    <div class="box">
+                    <div class="box btn btn-warning" data-toggle="tooltip" title="Revisa las rutas que tenemos para ti">
                         <i class="fas fa-plane text-white text-center"></i>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea id saepe non aperiam error molestias velit ab atque repellendus! Eveniet, adipisci dolores nihil assumenda repudiandae atque magni aut totam beatae.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea id saepe non aperiam error molestias velit ab atque repellendus! Eveniet, adipisci dolores nihil assumenda repudiandae atque magni aut totam beatae.</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque necessitatibus deserunt explicabo provident velit veritatis dolores corporis rem possimus rerum, expedita, dolore fuga id eius, distinctio deleniti repellendus aperiam obcaecati!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea id saepe non aperiam error molestias velit ab atque repellendus! Eveniet, adipisci dolores nihil assumenda repudiandae atque magni aut totam beatae.</p>
-                    <div class="box-reverse">
+                    <div class="box-reverse" data-toggle="tooltip" title="Toma Precauciones antes de comenzar tus viajes">
                         <i class="fas fa-exclamation-triangle text-white text-center"></i>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="box">
-                        <i class="fas fa-map-marked-alt text-white text-center"></i>
+                    <div class="box btn btn-warning"  data-toggle="tooltip" title="Descarga aquí tus mapas digitales" >
+                        <i class="fas fa-map-marked-alt text-white text-center pb-2"></i>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea id saepe non aperiam error molestias velit ab atque repellendus! Eveniet, adipisci dolores nihil assumenda repudiandae atque magni aut totam beatae.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea id saepe non aperiam error molestias velit ab atque repellendus! Eveniet, adipisci dolores nihil assumenda repudiandae atque magni aut totam beatae.</p>
                     </div>
                 </div>
@@ -170,11 +166,10 @@
             <div class="text-center">
                 <h2>Contacto</h2>
                 <hr>
-            </div>
-            <div class="row typeform align-items-center d-flex m-auto p-3 justify-content-start">
-                <div class="formulario">
-    
-                </div>
+                <div class="typeform-widget" data-url="https://form.typeform.com/to/ZtL0PFnv?typeform-medium=embed-snippet" 
+                style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById,
+                ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) 
+                 { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
             </div>
         </div>
     </section>
@@ -184,7 +179,7 @@
     <footer class="footer">
         <div class="container">
             <div class="row align-items-center d-flex m-auto p-3 justify-content-start">
-                <div class="col-lg-6 text-lg-start text-white"><h2>Viajes Chile</h2></div>
+                <div class="col-lg-6 text-lg-start text-white"><h2 class="" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Viajes Chile</h2></div>
                 <div class="col-lg-6 text-lg-end">
                     <a class="mx-2" href="#!"><i class="fab fa-github-square"></i></a>
                     <a class="mx-2" href="#!"><i class="fab fa-linkedin"></i></a>
@@ -201,6 +196,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script-->
+  
+    
     <!-- Own JS -->
     <script src="Assets/js/main.js"></script>
   </body>

@@ -14,12 +14,11 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
-    // Shrink the navbar 
+    // Navbar smoothScroll
     navbarShrink();
-
     document.addEventListener('scroll', navbarShrink);
 
-    // Activar bootstrap al scrolear
+    // Activar bootstrap al scrollear
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
